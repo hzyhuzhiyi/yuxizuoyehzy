@@ -19,6 +19,6 @@ while True:
    op=[int(sec/86400),'天',int((sec-int(sec/86400)*86400)/3600),'小时',int((sec-int(sec/3600)*3600)/60),'分',int((sec-int(sec/60)*60)),'秒']
    nn=(''.join('%s' %id for id in op))
    sys.stdout.write("\r%s"%nn)
-   sys.stdout.write('即可启动')
+   sys.stdout.write('即将即可启动')
    sys.stdout.flush()
    time.sleep(1)
