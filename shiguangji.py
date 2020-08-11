@@ -8,7 +8,7 @@ print('输入指定日期即可穿越(只能到未来)'"\n"'请输入目标年�
 y=int(input('年'))
 m=int(input('月'))
 d=int(input('日'))
-sj=str(y)+' '+str(m)+' '+str(d)
+sj=str(y)+' '+str(m)+' '+str(d)  #新定义一个和时间有关的变量sj
 d1=datetime.datetime(y,m,d)
 print('启动中，还需要')
 
@@ -20,5 +20,5 @@ while True:
    nn=(''.join('%s' %id for id in op))
    sys.stdout.write("\r%s"%nn)
    sys.stdout.write('即可启动')
-   sys.stdout.flush()
+   sys.stdout.flush()  #调用sys模块实现对变量的访问
    time.sleep(1)  #时间变量变化的步长设定为一秒
