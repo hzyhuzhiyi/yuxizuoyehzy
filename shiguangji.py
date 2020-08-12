@@ -1,4 +1,4 @@
-import time  #time模块用于提供各种与时间有关的函数
+import time  #time模块用于提供各种各样与时间有关的函数
 
 import datetime  #datatime模块重新封装了time模块，提供更多接口，用于提供更多与时间有关的函数
 
